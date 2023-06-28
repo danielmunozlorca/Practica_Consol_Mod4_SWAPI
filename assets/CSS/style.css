@@ -1,0 +1,147 @@
+    body {
+    background-image: url('../IMG/fondoSW2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  h5:hover {
+    cursor: pointer;
+  }  
+
+  p:hover {
+    cursor: pointer;
+  }
+
+ 
+  h1,h5 {
+    font-family: 'Bungee Inline', monospace;
+    font-size: 25px;
+    color: gold;
+    text-shadow: 3px 2px rgb(0, 0, 0);
+  }
+
+  h6 {
+    font-family: 'Bungee', cursive;
+    font-size: 20px;
+    color: gold;
+    text-shadow: 3px 2px rgb(0, 0, 0);
+  }
+
+  .Titulo-Star {
+    font-family: 'Bungee Shade', monospace;
+    font-size: 60px;
+    color: gold;       
+  }
+
+  span {
+    font-family: Georgia, 'Times New Roman', Times, serif, monospace;
+    font-size: 18px;
+    color: gold;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+  }
+  
+    #principales {
+        background-color: rgba(255, 0, 0, 0.5);        
+ }
+
+  .nombres1-5 {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 22px;
+    color: gold;
+    text-shadow: 2px 2px #000000;
+    background-color: rgb(255, 0, 0, 0.5);
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;       
+  }
+
+  #secundarios {
+    background-color: rgba(64, 192, 138, 0.5);        
+}
+
+  .nombres6-11 {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 22px;
+    color: gold;
+    text-shadow: 2px 2px #000000;
+    background-color: rgb(64, 192, 138, 0.5);
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;         
+  }
+
+  #otros {
+    background-color: rgba(118, 150, 238, 0.5);        
+}
+
+  .nombres12-16 {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 22px;
+    color: gold;
+    text-shadow: 2px 2px #000000;
+    background-color:rgb(118, 150, 238,0.5) ;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;         
+  }
+
+  .border-character {
+    border: 1px solid white;
+    padding: 5px;
+    height: 100px;
+    width: 170px;
+    border-radius: 10px;
+  }
+  
+ 
+  .character-info {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 37%;
+    height: 45%;
+    background-color: rgba(245, 136, 72, 0.9);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
+    font-family: 'Bruno Ace', bold;
+    font-size: 15px;
+    color: gold;
+    text-shadow: 2px 2px #000000;
+  }
+  
+  .character-info-inner {
+    display: flex;
+  }
+  
+  .character-image {
+    flex: 1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .character-details {
+    flex: 1;
+    padding-left: 10px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size:30px;
+    
+  }
+  
+  .close-button:hover {
+    color: red;
+  }
+
+  
